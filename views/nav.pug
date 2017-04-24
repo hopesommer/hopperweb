@@ -1,0 +1,186 @@
+link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+
+nav.navbar.navbar-default
+    .container-fluid
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+            button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+            a.navbar-brand(href='/') HOPPER
+                |
+                |
+                <span>diy</span>
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+            ul.nav.navbar-nav
+                li.dropdown
+                    a.dropdown-toggle(href='index', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                        i.fa.fa-home(aria-hidden='true')
+                li.dropdown
+                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                        | About
+                        span.caret
+                    ul.dropdown-menu
+
+                        li
+                            a(href='/contact') Contact
+                            |
+                        li
+                            a(href='/story') Story
+                            |
+                        li
+                            a(href='/app-menu') App
+                            |
+                li.dropdown
+
+                    a(href='/notable-hoppers') Notable Hoppers
+
+                li.dropdown
+                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                        | Projects
+                        span.caret
+
+                    ul.dropdown-menu
+                        li.dropdown-submenu
+                            a.test(tabindex='-1', href='#')
+                                | Biology
+                                span.caret
+                            ul.dropdown-menu.secondary
+                                li
+                                    a(tabindex='-1', href='/bugs') Bugs
+                                li
+                                    a(tabindex='-1', href='/dna') DNA
+                                li
+                                    a(tabindex='-1', href='/plants') Plants
+                                //li.dropdown-submenu
+                                //    a.test(href='#')
+                                //        | Another dropdown
+                                //        span.caret
+                                //    ul.dropdown-menu
+                                //        li
+                                //            a(href='#') 3rd level dropdown
+                                //        li
+                                //            a(href='#') 3rd level dropdown
+                        li.dropdown-submenu
+                            a.test(tabindex='-1', href='#')
+                                | Chemistry
+                                span.caret
+                            ul.dropdown-menu.secondary
+                                li
+                                    a(tabindex='-1', href='/candy') Candy
+                                li
+                                    a(tabindex='-1', href='/colors') Colors
+                                //li.dropdown-submenu
+                                //    a.test(href='#')
+                                //        | Another dropdown
+                                //        span.caret
+                                //    ul.dropdown-menu
+                                //        li
+                                //            a(href='#') 3rd level dropdown
+                                //        li
+                                //            a(href='#') 3rd level dropdown
+                        li.dropdown-submenu
+                            a.test(tabindex='-1', href='#')
+                                | Math
+                                span.caret
+                            ul.dropdown-menu.secondary
+                                li
+                                    a(tabindex='-1', href='/fractions') Fractions
+                                li
+                                    a(tabindex='-1', href='/money') Money
+                                li
+                                    a(tabindex='-1', href='/multiplication') Multiplication
+                                //li.dropdown-submenu
+                                //    a.test(href='#')
+                                //        | Another dropdown
+                                //        span.caret
+                                //    ul.dropdown-menu
+                                //        li
+                                //            a(href='#') 3rd level dropdown
+                                //        li
+                                //            a(href='#') 3rd level dropdown
+                        li.dropdown-submenu
+                            a.test(tabindex='-1', href='#')
+                                | Physics
+                                span.caret
+                            ul.dropdown-menu.secondary
+                                li
+                                    a(tabindex='-1', href='/gravity') Gravity
+                                li
+                                    a(tabindex='-1', href='/light') Light
+                                li
+                                    a(tabindex='-1', href='/mechanics') Mechanics
+                                //li.dropdown-submenu
+                                //    a.test(href='#')
+                                //        | Another dropdown
+                                //        span.caret
+                                //    ul.dropdown-menu
+                                //        li
+                                //            a(href='#') 3rd level dropdown
+                                //        li
+                                //            a(href='#') 3rd level dropdown
+
+                        li.dropdown-submenu
+                            a.test(tabindex='-1', href='#')
+                                | Technology
+                                span.caret
+                            ul.dropdown-menu.secondary
+                                li
+                                    a(tabindex='-1', href='/android') Android
+                                li
+                                    a(tabindex='-1', href='/apple') Apple
+                                li
+                                    a(tabindex='-1', href='/pc') PC
+                                li
+                                    a(tabindex='-1', href='/raspberry-pi') Raspberry Pi
+                                //li.dropdown-submenu
+                                //    a.test(href='#')
+                                //        | Another dropdown
+                                //        span.caret
+                                //    ul.dropdown-menu
+                                //        li
+                                //            a(href='#') 3rd level dropdown
+                                //        li
+                                //            a(href='#') 3rd level dropdown
+.footer
+    i.fa.fa-envelope-o
+    |
+    |
+    i.fa.fa-facebook-square
+    |
+    |
+    i.fa.fa-instagram
+
+//| .dropdown-submenu {
+//| position: relative;
+//| }
+//| .dropdown-submenu .dropdown-menu {
+//| top: 0;
+//| left: 100%;
+//| margin-top: -1px;
+//| }
+
+            form.navbar-form.navbar-left
+                .form-group
+                    input.form-control(type='text', placeholder='Search')
+                button.btn.btn-default(type='submit') Submit
+            //ul.nav.navbar-nav.navbar-right
+            //    li
+            //        a(href='#') Link
+            //    li.dropdown
+            //        a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+            //            | Dropdown
+            //            span.caret
+            //        ul.dropdown-menu
+            //            li
+            //                a(href='#') Action
+            //            li
+            //                a(href='#') Another action
+            //            li
+            //                a(href='#') Something else here
+            //            li.divider(role='separator')
+            //            li
+            //                a(href='#') Separated link

@@ -1,0 +1,14 @@
+extends layout
+
+
+block content
+
+    div.container
+        h3.notable-hoppers Notable Hoppers
+            ul
+                each hopper in hoppers
+                    li
+                        //img(src=hopper.cover, alt=hopper.name)
+                        a(href= 'hoppers/' + hopper.id)
+                            |#{hopper.name}
+                            i.fa(aria-hidden='true', class='fa-' + hopper.icon)

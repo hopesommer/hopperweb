@@ -1,0 +1,496 @@
+.btn-default {
+  color: darkorange;
+  border-color: #FBCBB8;
+  font-family: Hero, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background-color: #FBCBB8;
+}
+.body-menu {
+  background: #FEECE4;
+}
+/*@media (min-width: 321px) {*/
+
+  /*.body-menu {*/
+    /*background: deeppink;*/
+  /*}*/
+/*}*/
+
+.bunny{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  vertical-align: center;
+  transform: translateY(10%);
+}
+
+.bunny-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: linear-gradient(to right, darkorange, gold);
+  margin: auto;
+  text-align: center;
+  line-height: 35px;
+  color: white;
+}
+
+.caret {
+  color: deeppink;
+}
+.container {
+  padding-top: 40px;
+}
+.container-fluid {
+  color: darkorange;
+}
+
+.container-main {
+  padding-top: 200px;
+}
+
+.dropbtn {
+  background-color: white;
+  color: darkorange;
+  padding: 16px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  font-family: Hero, Arial, sans-serif;
+}
+
+.dropbtn:hover {
+  color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: darkorange;
+  text-decoration: none;
+  display: block;
+  font-family: Hero, Arial, sans-serif;
+  font-size: 17px;
+}
+
+.dropdown-content a:hover {
+  background-color: gold;
+  color: white;
+}
+.dropdown:hover .dropbtn {
+background-color: #FFCCFF;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown-menu, .secondary {
+  color: darkorange;
+}
+
+.dropdown-submenu {
+position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+top: 0;
+left: 100%;
+margin-top: -1px;
+}
+
+.dropdown-toggle {
+color: deeppink;
+}
+
+/*.dropdown-menu {*/
+/*padding: 12px;*/
+/*}*/
+
+.fa {
+  display: block;
+}
+
+.fa-android {
+color: deeppink;
+}
+
+.fa-apple {
+color: deeppink;
+}
+
+.fa-binoculars {
+color: deeppink;
+}
+
+.fa-bluetooth {
+color: deeppink;
+}
+
+.fa-book {
+color: deeppink;
+}
+
+.fa-desktop {
+  color: deeppink;
+}
+
+.fa-bug {
+color: deeppink;
+}
+
+.fa-cubes {
+color: deeppink;
+}
+
+.fa-envelope {
+color: deeppink;
+}
+
+.fa-envelope-o {
+  color: darkorange;
+}
+
+.fa-eye {
+color: deeppink;
+}
+
+.fa-facebook-square {
+  color: darkorange;
+  font-size: 20px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.fa-female {
+color: deeppink;
+}
+
+.fa-film {
+color: deeppink;
+}
+
+.fa-flask {
+color: deeppink;
+}
+
+.fa-grav {
+color: deeppink;
+}
+
+.fa-history {
+color: deeppink;
+}
+
+.fa-home  {
+color: deeppink;
+}
+
+.fa-instagram {
+  color: darkorange;
+}
+
+.fa-microchip {
+color: deeppink;
+}
+
+.fa-mobile {
+color: deeppink;
+}
+
+.fa-windows {
+color: deeppink;
+}
+
+.fa-tint {
+color: deeppink;
+}
+
+.fa-tree {
+color: deeppink;
+}
+
+.fa-user-circle-o {
+color: deeppink;
+}
+
+.fa-wpexplorer {
+color: deeppink;
+}
+
+.fa-wrench {
+color: deeppink;
+}
+
+.form-control {
+font-family: Hero, "Helvetica Neue", Arial, sans-serif;
+border-color: #FBCBB8;
+}
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: white;
+  text-align: left;
+  font-size: 25px;
+}
+/*@media (min-width: 321px) {*/
+
+/*h3 {*/
+/*font-size: 25px;*/
+/*}*/
+/*}*/
+
+h3 {
+text-align: center;
+color: darkorange;
+font-family: Hero, "Helvetica Neue", Arial, sans-serif;
+font-size: 25px;
+}
+
+
+@media (min-width: 1441px) {
+
+  h3 {
+  font-size: 40px;
+  }
+}
+
+/*@media (min-width: 321px) {*/
+
+/*h3 {*/
+/*font-size: 25px;*/
+/*}*/
+/*}*/
+
+.hopping{
+color: deeppink;
+text-align: center;
+font-size: 25px;
+font-family: Hero, Arial, sans-serif;
+/*padding-top: 28px;*/
+vertical-align: middle;
+}
+
+@media (min-width: 1441px) {
+
+  .hopping {
+    font-size: 40px;
+  }
+}
+
+.icon-bar {
+background-color: white;
+}
+.intro {
+color: darkOrange;
+text-align: center;
+font-size: 25px;
+font-family: Hero, Arial, sans-serif;
+}
+
+@media (min-width: 1441px) {
+
+  .intro {
+    font-size: 35px;
+  }
+}
+
+.loading-bar {
+width: 400px;
+height: 10px;
+background-color: white;
+margin: auto;
+}
+
+.main {
+background-color: #FFCCFF;
+font-family: Troupers, "Helvetica Neue", Arial, sans-serif;
+font-size: 16px;
+margin: 0;
+padding: 0;
+}
+
+.main, body, html {
+min-height: 100%;
+}
+
+.marie-curie {
+background: linear-gradient(to bottom, #D1BEDC, #E1D4E8);
+}
+
+.marie-curie-title {
+color: darkorange;
+}
+
+.menu {
+text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+color: darkorange;
+}
+.navbar-default .navbar-nav>li>a {
+color: darkorange;
+font-size: 17px;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+color: white;
+}
+
+.navbar-default .navbar-toggle {
+border: none;
+}
+.navbar-default .navbar-toggle:hover {
+background-color: white;
+border: none;
+}
+
+.navbar, .navbar-default {
+background-color: white;
+color: darkorange;
+}
+
+.navbar-default .navbar-brand {
+  color: deeppink;
+  font-family: Hero, "Helvetica Neue", Arial, sans-serif;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color: darkorange;
+}
+
+.navbar-header {
+color: deeppink;
+}
+
+.navbar-toggle, .collapsed {
+background-color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+color: deeppink;
+}
+
+.navbar-default .navbar-collapse .navbar-default .navbar-form {
+border: none;
+}
+
+.navbar-form {
+/*margin-top: 0px;*/
+/*margin-bottom: 0px;*/
+border: none;
+}
+
+@media (min-width: 321px) {
+
+.navbar-form {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+}
+
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+  text-align: center;
+  color: #777;
+}
+/*.notable-hoppers-nav{*/
+/*padding: 0 16px;*/
+/*}*/
+.navbar-default .navbar-nav .open .dropdown-menu .secondary>li>a {
+  text-align: center;
+  color: darkorange;
+}
+
+.offset-path {
+  width: 300px;
+  height: 10px;
+  background-color: #FF00FF;
+}
+
+.projects {
+  background: linear-gradient(to bottom, #C0CDE9, #FEECE4);
+}
+
+.projects-content {
+  text-align: center;
+  margin: 30px;
+  font-family: Hero, "Helvetica Neue", Arial, sans-serif;
+  color: darkorange;
+}
+
+.projects-header {
+  color: darkorange;
+}
+
+span {
+  color: gold;
+}
+
+
+
+.title {
+  color: deeppink;
+  font-family: Hero, Troupers, "Helvetica Neue", Arial, sans-serif;
+  font-size: 35px;
+}
+
+@media (min-width: 1441px) {
+
+  .title {
+    font-size: 50px;
+  }
+}
+
+
+.title, .intro{
+  margin: 0;
+}
+
+.topnav {
+  background-color: white;
+}
+
+/*.topnav a {*/
+/*!*float: left;*!*/
+/*display: inline-block;*/
+/*color: #0071BC;*/
+/*text-align: center;*/
+/*padding: 14px 16px;*/
+/*text-decoration: none;*/
+/*font-size: 17px;*/
+/*font-family: Hero, Arial, sans-serif;*/
+/*}*/
+
+
+ul {
+  list-style:none;
+  text-align: center;
+  color: darkorange;
+  font-size: 30px;
+  font-family: Hero, Arial, sans-serif;
+}
+
+.underline {
+  color: #FF00FF;
+  width: 100px;
+  height: 25px;
+}
