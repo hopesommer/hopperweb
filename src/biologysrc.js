@@ -1,36 +1,30 @@
 
-var projects = [
+var bioprojects = [
     {
-        name: 'Raspberry Pi',
-        id: 'raspberry-pi',
-        icon: 'microchip'
+        name: 'Bugs',
+        id: 'bugs',
+        icon: 'bug'
     },
     {
-        name: 'PC',
-        id: 'pc',
-        icon: 'windows'
+        name: 'DNA',
+        id: 'dna',
+        icon: 'database'
     },
     {
-        name: 'Android',
-        id: 'android',
-        icon: 'android'
-    },
-    {
-        name: 'Apple',
-        id: 'apple',
-        icon: 'apple'
+        name: 'Plants',
+        id: 'plants',
+        icon: 'leaf'
     }
-
 ];
 
 function getAll() {
-    return projects;
+    return bioprojects;
 }
 
 function find(id) {
-    return projects.filter(
-        function (project){
-            return id === project.id;
+    return bioprojects.filter(
+        function (bioproject){
+            return id === bioproject.id;
         }
     )[0];
 }

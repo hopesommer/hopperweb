@@ -45,7 +45,7 @@ nav.navbar.navbar-default
 
                     ul.dropdown-menu
                         li.dropdown-submenu
-                            a.test(tabindex='-1', href='#')
+                            a.test(tabindex='-1', href='/biology')
                                 | Biology
                                 span.caret
                             ul.dropdown-menu.secondary
@@ -146,13 +146,36 @@ nav.navbar.navbar-default
                                 //        li
                                 //            a(href='#') 3rd level dropdown
 .footer
-    i.fa.fa-envelope-o
-    |
-    |
-    i.fa.fa-facebook-square
-    |
-    |
-    i.fa.fa-instagram
+    .dropup
+        button#dropdownMenu2.btn-dropup.btn-default-dropup.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                i.fa.fa-envelope-o
+        ul.dropdown-menu(aria-labelledby='dropdownMenu2')
+            li
+                a(href='#') hopperdiy@gmail.com
+    .dropup
+        button#dropdownMenu3.btn-dropup.btn-default-dropup.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+            i.fa.fa-facebook-square
+        ul.dropdown-menu(aria-labelledby='dropdownMenu3')
+            li
+                a(href='#') Hopper DIY
+    .dropup
+        button#dropdownMenu4.btn-dropup.btn-default-dropup.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+            i.fa.fa-instagram
+        ul.dropdown-menu(aria-labelledby='dropdownMenu4')
+            li
+                a(href='#') @hopperdiy
+
+
+
+
+
+    //i.fa.fa-envelope-o
+    //|
+    //|
+    //i.fa.fa-facebook-square
+    //|
+    //|
+    //i.fa.fa-instagram
 
 //| .dropdown-submenu {
 //| position: relative;

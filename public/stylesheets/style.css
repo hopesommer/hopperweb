@@ -1,7 +1,29 @@
+a {
+  color: darkorange;
+}
+a:hover {
+  color: lightsalmon;
+}
+
 .btn-default {
   color: darkorange;
   border-color: #FBCBB8;
   font-family: Hero, "Helvetica Neue", Arial, sans-serif;
+}
+
+.btn-default-dropup {
+  border: none;
+  font-family: Hero, "Helvetica Neue", Arial, sans-serif;
+  color: darkorange;
+  font-size: 25px;
+  background-color: white;
+  padding: 1px 10px 1px 3px;
+  float: left;
+  display: inline;
+}
+
+.btn-dropup:active {
+  border: none;
 }
 
 body {
@@ -102,6 +124,11 @@ display: block;
   color: darkorange;
 }
 
+.dropdown-menu>li>a {
+  display: block;
+  color: darkorange;
+}
+
 .dropdown-submenu {
 position: relative;
 }
@@ -119,6 +146,13 @@ color: deeppink;
 /*.dropdown-menu {*/
 /*padding: 12px;*/
 /*}*/
+
+.dropup .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 1px;
+  padd
+}
 
 .fa {
   display: block;
@@ -144,6 +178,10 @@ color: deeppink;
 color: deeppink;
 }
 
+.fa-database {
+  color: deeppink;
+}
+
 .fa-desktop {
   color: deeppink;
 }
@@ -161,7 +199,7 @@ color: deeppink;
 }
 
 .fa-envelope-o {
-  color: darkorange;
+color: darkorange;
 }
 
 .fa-eye {
@@ -169,10 +207,18 @@ color: deeppink;
 }
 
 .fa-facebook-square {
-  color: darkorange;
-  font-size: 20px;
-  padding-right: 8px;
-  padding-left: 8px;
+color: darkorange;
+font-size: 20px;
+padding-right: 8px;
+padding-left: 8px;
+}
+
+.fa-asterisk {
+color: deeppink;
+}
+
+.fa-cogs {
+  color: deeppink;
 }
 
 .fa-female {
@@ -200,19 +246,52 @@ color: deeppink;
 }
 
 .fa-instagram {
-  color: darkorange;
+color: darkorange;
 }
 
-.fa-microchip {
+.fa-leaf {
 color: deeppink;
 }
+.fa-lemon-o {
+color: deeppink;
+}
+
+.fa-lightbulb-o {
+  color: deeppink;
+}
+
+.fa-mechanics {
+color: deeppink;
+}
+
 
 .fa-mobile {
 color: deeppink;
 }
 
+.fa-money {
+color: deeppink;
+}
+
+
+.fa-pagelines {
+  color: deeppink;
+}
+
+.fa-paint-brush {
+  color: deeppink;
+}
+
+.fa-pie-chart {
+  color: deeppink;
+}
+
 .fa-windows {
 color: deeppink;
+}
+
+.fa-spinner {
+  color: deeppink;
 }
 
 .fa-tint {
@@ -250,6 +329,7 @@ border-color: #FBCBB8;
   background-color: white;
   text-align: left;
   font-size: 25px;
+  dispplay: block;
 }
 /*@media (min-width: 321px) {*/
 
